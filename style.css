@@ -1,0 +1,65 @@
+html,body{
+    width: 100%;
+    margin: 0;
+    padding: 0;
+    background-color: antiquewhite;
+}
+
+.heading{
+    width: 90%;
+    height: 20%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.error{
+    height: 1%;
+    color: red;
+    text-align: center;
+    visibility: visible;
+}
+.disable{
+    visibility: hidden;
+}
+.output{
+    width: 90%;
+    display: flex;
+    justify-content: center;
+    flex-flow: row wrap;
+}
+.parent{
+    width: 80%;
+    margin: 0 auto;
+    background-color: lightblue;
+    margin: 4px 0;
+    display: flex;
+    justify-content: center;
+}
+.data-key{
+    align-self: center;
+    text-align: center;
+    width: 40%;
+}
+.data-val{
+    text-align: center;
+    width: 60%;
+    flex: 1 1;
+}
+.childs{
+    width: 80%;
+    display: flex;
+    justify-content: space-between;
+    flex-flow: row wrap;
+    align-content: space-between;
+    margin: 4px 0;
+}
+.child{
+    margin: 4px 0;
+    min-width: 240px;
+    max-width: 380px;
+    background-color: aquamarine;
+}
+.subchild{
+    display: flex;
+    width: 100%;
+}
