@@ -86,7 +86,7 @@ let renderThis = (data) => {
     // console.log(parents)
     elementSelector(outputElem).innerHTML = parents;
 }
-// renderThis(preDefine);
+renderThis(preDefine);
 
 let inputData = (event)=>{
     try{
